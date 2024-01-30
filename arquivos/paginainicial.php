@@ -7,12 +7,12 @@ session_start();
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="mortarboard.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagens/mortarboard.svg" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal do Aluno</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="estiloAluno.css">
+    <link rel="stylesheet" href="./personalizacao/estiloAluno.css">
 </head>
 
 <!--parte do aluno -->
@@ -52,7 +52,7 @@ session_start();
                 echo '    <div class="row g-3">';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="CEA.png" class=" card-img-top" alt="">';
+                echo '                <img src="./imagens/CEA.png" class=" card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Sobre Nos</h5>';
                 echo '                    <p class="card-text">Conheça mais sobre a gente.</p>';
@@ -62,7 +62,7 @@ session_start();
                 echo '        </div>';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="lupa.jpg" class="card-img-top" alt="">';
+                echo '                <img src="./imagens/lupa.jpg" class="card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Buscas</h5>';
                 echo '                    <p class="card-text">Busque alunos ou professores.</p>';
@@ -72,7 +72,7 @@ session_start();
                 echo '        </div>';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="cadernos.jpg" class="card-img-top" alt="">';
+                echo '                <img src="./imagens/cadernos.jpg" class="card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Cadastre pessoas </h5>';
                 echo '                    <p class="card-text">cadastre alunos ou professores.</p>';
@@ -103,7 +103,7 @@ session_start();
                 echo '    <div class="row g-3">';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="CEA.png" class="card-img-top" alt="">';
+                echo '                <img src="./imagens/CEA.png" class="card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Sobre Nos</h5>';
                 echo '                    <p class="card-text">Conheça mais sobre a gente.</p>';
@@ -113,7 +113,7 @@ session_start();
                 echo '        </div>';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="índice.jpeg" class="card-img-top" alt="">';
+                echo '                <img src="./imagens/índice.jpeg" class="card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Seu Boletim</h5>';
                 echo '                    <p class="card-text">Ver suas notas.</p>';
@@ -123,7 +123,7 @@ session_start();
                 echo '        </div>';
                 echo '        <div class="col-12 col-md-6 col-lg-4">';
                 echo '            <div class="card">';
-                echo '                <img src="istockphoto-936681148-612x612 (cópia).jpg" class="card-img-top" alt="">';
+                echo '                <img src="./imagens/istockphoto-936681148-612x612 (cópia).jpg" class="card-img-top" alt="">';
                 echo '                <div class="card-body">';
                 echo '                    <h5 class="card-title">Seus Dados</h5>';
                 echo '                    <p class="card-text">Veja seus dados.</p>';
@@ -196,7 +196,7 @@ session_start();
     ?>
     <footer class="bg-dark py-3 mt-3">
         <div class="container text-light text-center">
-            <img src="BackgroundEraser_20230624_154848812.png"><br><br>
+            <img src="./imagens/BackgroundEraser_20230624_154848812.png"><br><br>
             <small class="text-white-50">&copy;Copyright by Centro de Estudo e Aprendizagem</small>
         </div>
     </footer>

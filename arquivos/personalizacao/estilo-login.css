@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-image: url(índice.png);
+  background-image: url(../imagens/índice.png);
 }
 
 .container {
